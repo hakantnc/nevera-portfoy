@@ -6,12 +6,12 @@ import { useState, useEffect } from "react";
 const projects = [
   {
     id: 1,
-    title: "SERAZIO E-Ticaret",
+    title: "ARCHIFURN E-Ticaret",
     category: "E-Ticaret",
     description:
-      "Premium mobilya markalarını tek bir çatı altında toplayan ve bir pazaryeri olan SERAZIO'nun website tasarımı tarafımızca yapılmıştır. Kullanıcı dostu bir tasarım kullanılmış olup mobil cihazlar için uyumlu bir şekilde geliştirilmiştir.",
+      "Premium mobilya markalarını tek bir çatı altında toplayan ve bir pazaryeri olan Archifurn'un website tasarımı tarafımızca yapılmıştır. Kullanıcı dostu bir tasarım kullanılmış olup mobil cihazlar için uyumlu bir şekilde geliştirilmiştir.",
     fullDescription:
-      "Premium mobilya markalarını tek bir çatı altında toplayan ve bir pazaryeri olan SERAZIO'nun website tasarımı tarafımızca yapılmıştır. Kullanıcı dostu bir tasarım kullanılmış olup mobil cihazlar için uyumlu bir şekilde geliştirilmiştir.\n\nProje kapsamında modern e-ticaret deneyimi sunulmuş, ürün filtreleme, arama ve karşılaştırma özellikleri eklenmiştir. Responsive tasarım sayesinde tüm cihazlarda mükemmel görüntüleme sağlanmaktadır.",
+      "Premium mobilya markalarını tek bir çatı altında toplayan ve bir pazaryeri olan Archifurn'un website tasarımı tarafımızca yapılmıştır. Kullanıcı dostu bir tasarım kullanılmış olup mobil cihazlar için uyumlu bir şekilde geliştirilmiştir.\n\nProje kapsamında modern e-ticaret deneyimi sunulmuş, ürün filtreleme, arama ve karşılaştırma özellikleri eklenmiştir. Responsive tasarım sayesinde tüm cihazlarda mükemmel görüntüleme sağlanmaktadır.",
     images: [
       "/serazio1.jpeg",
       "/serazio2.jpeg",
@@ -535,7 +535,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <span className="text-xl font-bold tracking-tight gradient-text">
-              NEVERA
+              NEVERA & SERAZIO
             </span>
           </div>
           <div className="hidden md:flex items-center gap-8">
@@ -725,187 +725,15 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="iletisim" className="py-32 relative">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            {/* Left Content */}
-            <div>
-              <span className="inline-block px-4 py-2 bg-fuchsia-500/10 border border-fuchsia-500/20 rounded-full text-fuchsia-400 text-sm font-medium mb-6">
-                İletişim
-              </span>
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                Projenizi
-                <span className="gradient-text"> Hayata Geçirelim</span>
-              </h2>
-              <p className="text-gray-400 text-lg mb-10 leading-relaxed">
-                Yeni bir proje mi planlıyorsunuz? Size en uygun çözümü sunmak
-                için buradayız. Hemen iletişime geçin, birlikte harika işler
-                çıkaralım.
-              </p>
-
-              {/* Contact Info */}
-              <div className="space-y-6">
-                <a
-                  href="https://dsnevera.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-4 p-4 bg-[#0a0a0a] border border-[#1a1a1a] rounded-xl hover:border-indigo-500/50 transition-colors group"
-                >
-                  <div className="w-12 h-12 bg-indigo-500/10 rounded-lg flex items-center justify-center text-indigo-400 group-hover:bg-indigo-500/20 transition-colors">
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <div className="text-sm text-gray-500">Website</div>
-                    <div className="text-white font-medium">dsnevera.com</div>
-                  </div>
-                </a>
-
-                <a
-                  href="mailto:dsnevera@gmail.com"
-                  className="flex items-center gap-4 p-4 bg-[#0a0a0a] border border-[#1a1a1a] rounded-xl hover:border-indigo-500/50 transition-colors group"
-                >
-                  <div className="w-12 h-12 bg-purple-500/10 rounded-lg flex items-center justify-center text-purple-400 group-hover:bg-purple-500/20 transition-colors">
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <div className="text-sm text-gray-500">E-posta</div>
-                    <div className="text-white font-medium">
-                      dsnevera@gmail.com
-                    </div>
-                  </div>
-                </a>
-
-                <div className="flex items-center gap-4 p-4 bg-[#0a0a0a] border border-[#1a1a1a] rounded-xl">
-                  <div className="w-12 h-12 bg-fuchsia-500/10 rounded-lg flex items-center justify-center text-fuchsia-400">
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <div className="text-sm text-gray-500">Telefon</div>
-                    <div className="text-white font-medium">
-                      +90 545 767 47 31
-                    </div>
-                    <div className="text-white font-medium">
-                      +90 531 819 97 00
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex items-center gap-4 p-4 bg-[#0a0a0a] border border-[#1a1a1a] rounded-xl">
-                  <div className="w-12 h-12 bg-green-500/10 rounded-lg flex items-center justify-center text-green-400">
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <div className="text-sm text-gray-500">Adres</div>
-                    <div className="text-white font-medium text-sm">
-                      Ataköy 7-8-9-10. Kısım Mah. Çobançeşme E-5 Yan Yol Cad.
-                      <br />
-                      No: 14 A Bakırköy, 34158 İstanbul
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Right - Map/Visual */}
-            <div className="relative">
-              <div className="aspect-square bg-gradient-to-br from-indigo-600/20 via-purple-600/20 to-fuchsia-600/20 rounded-3xl p-1">
-                <div className="w-full h-full bg-[#0a0a0a] rounded-[22px] flex items-center justify-center relative overflow-hidden">
-                  {/* Decorative Elements */}
-                  <div className="absolute inset-0">
-                    <div className="absolute top-1/4 left-1/4 w-32 h-32 bg-indigo-500/30 rounded-full blur-3xl" />
-                    <div className="absolute bottom-1/4 right-1/4 w-40 h-40 bg-purple-500/30 rounded-full blur-3xl" />
-                    <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-fuchsia-500/20 rounded-full blur-3xl" />
-                  </div>
-
-                  <div className="relative z-10 text-center p-8">
-                    <div className="w-24 h-24 mx-auto mb-8 rounded-2xl bg-gradient-to-br from-indigo-500 via-purple-500 to-fuchsia-500 flex items-center justify-center animate-float">
-                      <span className="text-4xl font-bold text-white">N</span>
-                    </div>
-                    <h3 className="text-2xl font-bold mb-4">
-                      NEVERA Development Solutions
-                    </h3>
-                    <p className="text-gray-400 mb-6">
-                      Teknoloji ile geleceği şekillendiriyoruz
-                    </p>
-                    <div className="flex justify-center gap-4">
-                      <a
-                        href="mailto:dsnevera@gmail.com"
-                        className="btn-primary px-6 py-3 bg-indigo-600 hover:bg-indigo-700 rounded-xl font-medium transition-all"
-                      >
-                        E-posta Gönder
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="py-8 border-t border-[#1a1a1a]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-3">
-              <span className="text-lg font-bold gradient-text">NEVERA</span>
+              <span className="text-lg font-bold gradient-text">NEVERA & SERAZIO</span>
               <span className="text-sm text-gray-400">
-                © 2024 NEVERA Development Solutions. Tüm hakları saklıdır.
+                © 2025 NEVERA Development Solutions. Tüm hakları saklıdır.
               </span>
             </div>
             <div className="flex items-center gap-6">
