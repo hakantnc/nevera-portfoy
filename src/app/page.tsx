@@ -551,19 +551,7 @@ export default function Home() {
             >
               Çalışmalarımız
             </a>
-            <a
-              href="#iletisim"
-              className="text-sm text-gray-400 hover:text-white transition-colors link-underline"
-            >
-              İletişim
-            </a>
           </div>
-          <a
-            href="#iletisim"
-            className="btn-primary px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 rounded-lg text-sm font-medium transition-colors"
-          >
-            Bize Ulaşın
-          </a>
         </div>
       </nav>
 
@@ -618,19 +606,13 @@ export default function Home() {
               Projelerimizi İnceleyin
             </a>
             <a
-              href="#iletisim"
+              href="#projeler"
               className="px-8 py-4 bg-transparent border border-[#2a2a2a] hover:border-[#3a3a3a] rounded-xl text-lg font-semibold transition-all hover:bg-[#0a0a0a]"
             >
-              İletişime Geçin
+              Çalışmalarımızı İnceleyin
             </a>
           </div>
 
-          {/* Scroll Indicator */}
-          <div className="absolute bottom-10 left-1/2 -translate-x-1/2 opacity-0 animate-fade-in stagger-6">
-            <div className="w-6 h-10 border-2 border-gray-600 rounded-full flex justify-center pt-2">
-              <div className="w-1.5 h-3 bg-gray-500 rounded-full animate-bounce" />
-            </div>
-          </div>
         </div>
       </section>
 
