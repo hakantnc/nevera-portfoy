@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NEVERA Development Solutions | Yazılım & Teknoloji Çözümleri",
+  title: "NEVERA & SERAZIO",
   description: "Kurumsal websiteler, e-ticaret, IoT sistemleri ve yapay zeka destekli çözümler sunan yazılım şirketi.",
   keywords: ["yazılım", "web geliştirme", "e-ticaret", "IoT", "yapay zeka", "kurumsal website"],
 };
